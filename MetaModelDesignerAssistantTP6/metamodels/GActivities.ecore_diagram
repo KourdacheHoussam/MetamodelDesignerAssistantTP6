@@ -87,6 +87,10 @@
   <children xmi:type="notation:Node" xmi:id="_9Wi3cIMVEeS3GfzXlkJfQQ" type="2001">
     <children xmi:type="notation:Node" xmi:id="_9Wo-EIMVEeS3GfzXlkJfQQ" type="5001"/>
     <children xmi:type="notation:Node" xmi:id="_9Wo-EYMVEeS3GfzXlkJfQQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_VSalQIMXEeS3GfzXlkJfQQ" type="3001">
+        <element xmi:type="ecore:EAttribute" href="GActivities.ecore#//Activity/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VSalQYMXEeS3GfzXlkJfQQ"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_9Wo-EoMVEeS3GfzXlkJfQQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_9Wo-E4MVEeS3GfzXlkJfQQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_9Wo-FIMVEeS3GfzXlkJfQQ"/>
@@ -196,7 +200,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_W4KQhYMWEeS3GfzXlkJfQQ" x="77" y="62"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_W4KQhoMWEeS3GfzXlkJfQQ" type="6004">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_W4KQh4MWEeS3GfzXlkJfQQ" x="17" y="-21"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_W4KQh4MWEeS3GfzXlkJfQQ" x="7" y="-26"/>
     </children>
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_W4KQgYMWEeS3GfzXlkJfQQ"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_W4KQgoMWEeS3GfzXlkJfQQ" fontName="Segoe UI"/>

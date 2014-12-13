@@ -18,6 +18,10 @@ Les éléments méta-modèles utilisés dans ce modèle sont :
 * EParameter pour définir un paramètre d'opération   
 
 
+# Méta-modèle
+![altText](MM.png "Metamodele") 
+
+
  
 ## Un processus 
 
