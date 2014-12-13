@@ -28,7 +28,7 @@ Il possède deux PseudoState: etat de début et de fin.
 
 ## PseudoState
 une classe abstraite, mère de deux sous-classes Start et End.
-
+un pseudoState a toujours une référence vers une Activité.
 
 ## Activity
 
