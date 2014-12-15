@@ -24,6 +24,10 @@
   <children xmi:type="notation:Shape" xmi:id="_mfAbgIR0EeSS85lWJUtEdg" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_mfAbgoR0EeSS85lWJUtEdg" type="5001"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_mfAbg4R0EeSS85lWJUtEdg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_ob94oISOEeSS85lWJUtEdg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="petri.ecore#//ReseauPetri/autonome"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ob94oYSOEeSS85lWJUtEdg"/>
+      </children>
       <styles xmi:type="notation:SortingStyle" xmi:id="_mfAbhIR0EeSS85lWJUtEdg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_mfAbhYR0EeSS85lWJUtEdg"/>
     </children>
@@ -36,7 +40,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_mfAbi4R0EeSS85lWJUtEdg"/>
     </children>
     <element xmi:type="ecore:EClass" href="petri.ecore#//ReseauPetri"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mfAbgYR0EeSS85lWJUtEdg" x="255" y="105" width="106" height="56"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mfAbgYR0EeSS85lWJUtEdg" x="255" y="105" width="106" height="71"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_raSCsIR0EeSS85lWJUtEdg" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_raYJUIR0EeSS85lWJUtEdg" type="5001"/>
@@ -277,7 +281,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_DMKsG4SMEeSS85lWJUtEdg"/>
     </children>
     <element xmi:type="ecore:EClass" href="petri.ecore#//ElementNoeud"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMKsEYSMEeSS85lWJUtEdg" x="-40" y="110" width="121" height="31"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMKsEYSMEeSS85lWJUtEdg" x="-20" y="110" width="106" height="31"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_cyCTAISMEeSS85lWJUtEdg" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_cyCTAoSMEeSS85lWJUtEdg" type="5001"/>
@@ -294,7 +298,40 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_cyCTC4SMEeSS85lWJUtEdg"/>
     </children>
     <element xmi:type="ecore:EClass" href="petri.ecore#//ElementLiaison"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cyCTAYSMEeSS85lWJUtEdg" x="545" y="85" width="126" height="46"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cyCTAYSMEeSS85lWJUtEdg" x="690" y="20" width="126" height="46"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4EnBcISOEeSS85lWJUtEdg" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4EnBcoSOEeSS85lWJUtEdg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4EnBc4SOEeSS85lWJUtEdg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_5yRdIISOEeSS85lWJUtEdg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="petri.ecore#//Catégorie/nom"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5yRdIYSOEeSS85lWJUtEdg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4EnBdISOEeSS85lWJUtEdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4EnBdYSOEeSS85lWJUtEdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4EnBdoSOEeSS85lWJUtEdg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4EnBd4SOEeSS85lWJUtEdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4EnBeISOEeSS85lWJUtEdg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4EnBeYSOEeSS85lWJUtEdg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4EnBeoSOEeSS85lWJUtEdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4EnBe4SOEeSS85lWJUtEdg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="petri.ecore#//Catégorie"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4EnBcYSOEeSS85lWJUtEdg" x="545" y="20" width="116" height="66"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_D6m_EISPEeSS85lWJUtEdg" type="Note" fontName="Segoe UI" description="Un réseau de petri peut etre un graphe d'états, un graphe d'évements,   RDP pur ...etc" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_D6tFsISPEeSS85lWJUtEdg" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_D6tFsYSPEeSS85lWJUtEdg" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_D6m_EYSPEeSS85lWJUtEdg"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_D6m_EoSPEeSS85lWJUtEdg"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D6m_E4SPEeSS85lWJUtEdg" x="595" y="-50" width="138" height="61"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_FrrIUYR0EeSS85lWJUtEdg"/>
   <element xmi:type="ecore:EPackage" href="petri.ecore#/"/>
@@ -332,14 +369,15 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_Lmz_IIR2EeSS85lWJUtEdg" type="4003" source="_mfAbgIR0EeSS85lWJUtEdg" target="_BTR50IR2EeSS85lWJUtEdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_Lmz_I4R2EeSS85lWJUtEdg" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Lmz_JIR2EeSS85lWJUtEdg" x="84" y="55"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Lmz_JIR2EeSS85lWJUtEdg" x="76" y="31"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Lmz_JYR2EeSS85lWJUtEdg" type="6004">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Lmz_JoR2EeSS85lWJUtEdg" x="37" y="-9"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Lmz_JoR2EeSS85lWJUtEdg" x="17" y="16"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Lmz_IYR2EeSS85lWJUtEdg" fontName="Segoe UI"/>
     <element xmi:type="ecore:EReference" href="petri.ecore#//ReseauPetri/arcs"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lmz_IoR2EeSS85lWJUtEdg" points="[41, -8, -263, -91]$[185, -8, -119, -91]$[275, 60, -29, -23]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lmz_IoR2EeSS85lWJUtEdg" points="[5, 0, -233, -70]$[229, 0, -9, -70]$[229, 44, -9, -26]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9gNHcISOEeSS85lWJUtEdg" id="(0.9528301886792453,0.7887323943661971)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_aegzMIR2EeSS85lWJUtEdg" type="4003" source="_t_nQwIR1EeSS85lWJUtEdg" target="_mfAbgIR0EeSS85lWJUtEdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_aegzM4R2EeSS85lWJUtEdg" type="6002">
@@ -478,9 +516,9 @@
   <edges xmi:type="notation:Connector" xmi:id="_RzHHUISMEeSS85lWJUtEdg" type="4004" source="_tiXJgIR0EeSS85lWJUtEdg" target="_DMKsEISMEeSS85lWJUtEdg">
     <styles xmi:type="notation:FontStyle" xmi:id="_RzHHUYSMEeSS85lWJUtEdg" fontName="Segoe UI"/>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RzHHUoSMEeSS85lWJUtEdg" points="[-3, -8, 100, 84]$[-103, -8, 0, 84]$[-103, -76, 0, 16]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RzHHUoSMEeSS85lWJUtEdg" points="[-3, 0, 49, 77]$[-52, 0, 0, 77]$[-52, -76, 0, 1]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RzNN8ISMEeSS85lWJUtEdg" id="(0.039473684210526314,0.6346153846153846)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RzNN8YSMEeSS85lWJUtEdg" id="(0.2066115702479339,0.6923076923076923)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RzNN8YSMEeSS85lWJUtEdg" id="(0.5283018867924528,0.9807692307692307)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_kyap8ISMEeSS85lWJUtEdg" type="4004" source="_BTR50IR2EeSS85lWJUtEdg" target="_cyCTAISMEeSS85lWJUtEdg">
     <styles xmi:type="notation:FontStyle" xmi:id="_kyap8YSMEeSS85lWJUtEdg" fontName="Segoe UI"/>
@@ -488,5 +526,24 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kyap8oSMEeSS85lWJUtEdg" points="[2, -3, 0, 77]$[2, -71, 0, 9]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kygwkISMEeSS85lWJUtEdg" id="(0.7241379310344828,0.057692307692307696)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kygwkYSMEeSS85lWJUtEdg" id="(0.5079365079365079,0.8269230769230769)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_AvZnUISPEeSS85lWJUtEdg" type="4002" source="_mfAbgIR0EeSS85lWJUtEdg" target="_4EnBcISOEeSS85lWJUtEdg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AvZnU4SPEeSS85lWJUtEdg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AvZnVISPEeSS85lWJUtEdg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Avft8ISPEeSS85lWJUtEdg" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Avft8YSPEeSS85lWJUtEdg" x="32" y="19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AvZnUYSPEeSS85lWJUtEdg" fontName="Segoe UI"/>
+    <element xmi:type="ecore:EReference" href="petri.ecore#//ReseauPetri/%"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AvZnUoSPEeSS85lWJUtEdg" points="[8, -6, -250, 45]$[252, -6, -6, 45]$[252, -50, -6, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Avl0kISPEeSS85lWJUtEdg" id="(0.9245283018867925,0.43661971830985913)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Avl0kYSPEeSS85lWJUtEdg" id="(0.5689655172413793,0.9848484848484849)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_D6zMUISPEeSS85lWJUtEdg" type="NoteAttachment" source="_D6m_EISPEeSS85lWJUtEdg" target="_4EnBcISOEeSS85lWJUtEdg" lineWidth="1">
+    <styles xmi:type="notation:ArrowStyle" xmi:id="_D6zMUYSPEeSS85lWJUtEdg"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_D6zMUoSPEeSS85lWJUtEdg"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D6zMU4SPEeSS85lWJUtEdg" points="[0, 0, -603, -53]$[545, 47, -58, -6]"/>
   </edges>
 </notation:Diagram>

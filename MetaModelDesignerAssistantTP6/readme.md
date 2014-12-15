@@ -129,5 +129,23 @@ Remarque: Dans certain domaine on résonne plus en nombre de ressources
 
 ![n1](img/m-v6.jpeg "title")
 
+
+### Version 7 du Méta-Modèle et l'instance du modèle généré:
+ 
+Remarque: Dans certain domaine on résonne plus en nombre de ressources   
+
+![mm-v7](img/mm-v7.PNG "title")
+
+
+------------------------------------------------------------
+
+![n1](img/m-v7.jpeg "title")
+
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
  
 &copy; 2014 Houssam KOURDACHE

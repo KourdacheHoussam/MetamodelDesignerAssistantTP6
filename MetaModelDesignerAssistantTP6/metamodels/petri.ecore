@@ -11,6 +11,8 @@
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rpetri" eType="#//Domaine"
         containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="autonome" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" upperBound="2" eType="#//Catégorie"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Transition" abstract="true" eSuperTypes="#//Noeud"/>
   <eClassifiers xsi:type="ecore:EClass" name="Noeud" eSuperTypes="#//NamedElement #//ElementNoeud">
@@ -47,4 +49,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="ANormal" eSuperTypes="#//Arc"/>
   <eClassifiers xsi:type="ecore:EClass" name="ElementNoeud"/>
   <eClassifiers xsi:type="ecore:EClass" name="ElementLiaison"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Catégorie">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
 </ecore:EPackage>

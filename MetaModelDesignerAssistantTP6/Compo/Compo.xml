@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instance>
   <presentation name="?" maxConstraintArity="2" format="XCSP 2.0" />
-  <domains nbDomains="59">
+  <domains nbDomains="64">
     <domain name="DC1" nbValues="1">1</domain>
     <domain name="DC1_2" nbValues="2">0 2..2</domain>
     <domain name="DC2" nbValues="1">3</domain>
@@ -32,71 +32,83 @@
     <domain name="DC14_2" nbValues="2">0 27..27</domain>
     <domain name="DC15" nbValues="1">28</domain>
     <domain name="DC15_2" nbValues="2">0 29..29</domain>
+    <domain name="DC16" nbValues="1">30</domain>
+    <domain name="DC16_2" nbValues="2">0 31..31</domain>
     <domain name="DF1_1" nbValues="25">-12..12</domain>
+    <domain name="DF2_1" nbValues="25">-12..12</domain>
     <domain name="DF3_1" nbValues="25">-12..12</domain>
     <domain name="DF4_1" nbValues="25">-12..12</domain>
     <domain name="DF4_2" nbValues="25">-12..12</domain>
     <domain name="DF8_1" nbValues="25">-12..12</domain>
     <domain name="DF9_1" nbValues="25">-12..12</domain>
     <domain name="DF10_1" nbValues="25">-12..12</domain>
+    <domain name="DF16_1" nbValues="25">-12..12</domain>
     <domain name="DCRJ_1_2" nbValues="2">5..6</domain>
-    <domain name="DCRJ2_1_2" nbValues="4">5..6 30..32</domain>
+    <domain name="DCRJ2_1_2" nbValues="4">5..6 32..34</domain>
     <domain name="DCRJ_2_2" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_2_2" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_2_2" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_3_2" nbValues="2">18..19</domain>
-    <domain name="DCRJ2_3_2" nbValues="4">18..19 30..32</domain>
+    <domain name="DCRJ2_3_2" nbValues="4">18..19 32..34</domain>
+    <domain name="DCRJ_4_2" nbValues="2">30..31</domain>
+    <domain name="DCRJ2_4_2" nbValues="4">30..31 32..34</domain>
     <domain name="DCRJ_1_3" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_1_3" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_1_3" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_2_3" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_2_3" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_2_3" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_1_4" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_1_4" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_1_4" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_2_4" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_2_4" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_2_4" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_3_4" nbValues="2">12..13</domain>
-    <domain name="DCRJ2_3_4" nbValues="4">12..13 30..32</domain>
+    <domain name="DCRJ2_3_4" nbValues="4">12..13 32..34</domain>
     <domain name="DCRJ_1_5" nbValues="2">3..4</domain>
-    <domain name="DCRJ2_1_5" nbValues="4">3..4 30..32</domain>
+    <domain name="DCRJ2_1_5" nbValues="4">3..4 32..34</domain>
     <domain name="DCRJ_1_6" nbValues="2">5..6</domain>
-    <domain name="DCRJ2_1_6" nbValues="4">5..6 30..32</domain>
+    <domain name="DCRJ2_1_6" nbValues="4">5..6 32..34</domain>
     <domain name="DCRJ_2_6" nbValues="2">5..6</domain>
-    <domain name="DCRJ2_2_6" nbValues="4">5..6 30..32</domain>
+    <domain name="DCRJ2_2_6" nbValues="4">5..6 32..34</domain>
     <domain name="DCRJ_3_6" nbValues="2">20..21</domain>
-    <domain name="DCRJ2_3_6" nbValues="4">20..21 30..32</domain>
+    <domain name="DCRJ2_3_6" nbValues="4">20..21 32..34</domain>
     <domain name="DCRJ_1_8" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_1_8" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_1_8" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_2_8" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_2_8" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_2_8" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_1_9" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_1_9" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_1_9" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_2_9" nbValues="2">10..11</domain>
-    <domain name="DCRJ2_2_9" nbValues="4">10..11 30..32</domain>
+    <domain name="DCRJ2_2_9" nbValues="4">10..11 32..34</domain>
     <domain name="DCRJ_1_12" nbValues="2">5..6</domain>
-    <domain name="DCRJ2_1_12" nbValues="4">5..6 30..32</domain>
+    <domain name="DCRJ2_1_12" nbValues="4">5..6 32..34</domain>
     <domain name="DCRJ_2_12" nbValues="2">5..6</domain>
-    <domain name="DCRJ2_2_12" nbValues="4">5..6 30..32</domain>
+    <domain name="DCRJ2_2_12" nbValues="4">5..6 32..34</domain>
     <domain name="DCRJ_3_12" nbValues="2">20..21</domain>
-    <domain name="DCRJ2_3_12" nbValues="4">20..21 30..32</domain>
+    <domain name="DCRJ2_3_12" nbValues="4">20..21 32..34</domain>
     <domain name="DCRJ_1_13" nbValues="2">5..6</domain>
-    <domain name="DCRJ2_1_13" nbValues="4">5..6 30..32</domain>
+    <domain name="DCRJ2_1_13" nbValues="4">5..6 32..34</domain>
     <domain name="DCRJ_2_13" nbValues="2">5..6</domain>
-    <domain name="DCRJ2_2_13" nbValues="4">5..6 30..32</domain>
+    <domain name="DCRJ2_2_13" nbValues="4">5..6 32..34</domain>
     <domain name="DCRJ_3_13" nbValues="2">20..21</domain>
-    <domain name="DCRJ2_3_13" nbValues="4">20..21 30..32</domain>
+    <domain name="DCRJ2_3_13" nbValues="4">20..21 32..34</domain>
   </domains>
-  <variables nbVariables="86">
+  <variables nbVariables="94">
     <variable domain="DF1_1" name="F_NamedElement_1_nom" />
     <variable domain="DF1_1" name="F_NamedElement_2_nom" />
+    <variable domain="DF2_1" name="F_ReseauPetri_1_autonome" />
     <variable domain="DCRJ2_1_2" name="Id_ReseauPetri_1_noeuds_1" />
     <variable domain="DCRJ2_1_2" name="Id_ReseauPetri_1_noeuds_2" />
     <variable domain="DCRJ2_2_2" name="Id_ReseauPetri_1_arcs_1" />
     <variable domain="DCRJ2_2_2" name="Id_ReseauPetri_1_arcs_2" />
     <variable domain="DCRJ2_3_2" name="Id_ReseauPetri_1_rpetri_1" />
+    <variable domain="DCRJ2_4_2" name="Id_ReseauPetri_1_null_1" />
+    <variable domain="DCRJ2_4_2" name="Id_ReseauPetri_1_null_2" />
+    <variable domain="DF2_1" name="F_ReseauPetri_2_autonome" />
     <variable domain="DCRJ2_1_2" name="Id_ReseauPetri_2_noeuds_1" />
     <variable domain="DCRJ2_1_2" name="Id_ReseauPetri_2_noeuds_2" />
     <variable domain="DCRJ2_2_2" name="Id_ReseauPetri_2_arcs_1" />
     <variable domain="DCRJ2_2_2" name="Id_ReseauPetri_2_arcs_2" />
     <variable domain="DCRJ2_3_2" name="Id_ReseauPetri_2_rpetri_1" />
+    <variable domain="DCRJ2_4_2" name="Id_ReseauPetri_2_null_1" />
+    <variable domain="DCRJ2_4_2" name="Id_ReseauPetri_2_null_2" />
     <variable domain="DF3_1" name="F_Noeud_1_nom" />
     <variable domain="DCRJ2_1_3" name="Id_Noeud_1_inputLinks_1" />
     <variable domain="DCRJ2_1_3" name="Id_Noeud_1_inputLinks_2" />
@@ -171,6 +183,8 @@
     <variable domain="DCRJ2_2_13" name="Id_ANormal_2_source_1" />
     <variable domain="DCRJ2_3_13" name="Id_ANormal_2_poids_1" />
     <variable domain="DCRJ2_3_13" name="Id_ANormal_2_poids_2" />
+    <variable domain="DF16_1" name="F_Catégorie_1_nom" />
+    <variable domain="DF16_1" name="F_Catégorie_2_nom" />
   </variables>
   <predicates nbPredicates="1">
     <predicate name="inf">
