@@ -41,6 +41,7 @@ Exemple d'utilisation : **  java -jar grimm.jar metamodel.ecore Compo root lb ub
  - Il est impératif d'utiliser le même nom de répertoire, avec la première lettre en majuscule : Compo
  - Dans le méta-modèle que vous allez créer, veillez à rajouter la EClass Compo avec un association de composition vers la racine 
  	de votre modèle.
+ - L'instance du modèle généré peut être exporter dans differents formats(pdf, png, jpg...etc).
  
 
 ## Premier exemple
@@ -48,9 +49,13 @@ Exemple d'utilisation : **  java -jar grimm.jar metamodel.ecore Compo root lb ub
 Dans le répertoire model, vous trouverez un fichier .ecore sur lequel vous pourrez faire le premier test:
 Le fichier généré ressemblerai à ceci:
 
-![test.png](img/test.jpeg "title")  
+![test](img/test.jpeg "title")  
 
-# Méta-modèle
+# ******* Méta-modèle *
+
+
+### V1 du Méta-Modèle  :
+![mm-v1](img/mm-v1.PNG "title")
 
 
 
