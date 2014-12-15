@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance>
+  <presentation name="?" maxConstraintArity="2" format="XCSP 2.0" />
+  <domains nbDomains="9">
+    <domain name="DC1" nbValues="1">1</domain>
+    <domain name="DC1_2" nbValues="2">0 1</domain>
+    <domain name="DC2" nbValues="1">2</domain>
+    <domain name="DC2_2" nbValues="2">0 3..3</domain>
+    <domain name="DC3" nbValues="1">4</domain>
+    <domain name="DC3_2" nbValues="2">0 5..5</domain>
+    <domain name="DCRJ_1_1" nbValues="2">4..5</domain>
+    <domain name="DCRJ2_1_1" nbValues="4">4..5 6..8</domain>
+    <domain name="DCRJ_2_1" nbValues="2">2..3</domain>
+    <domain name="DCRJ2_2_1" nbValues="4">2..3 6..8</domain>
+    <domain name="DCRJ_1_2" nbValues="2">4..5</domain>
+    <domain name="DCRJ2_1_2" nbValues="4">4..5 6..8</domain>
+  </domains>
+  <variables nbVariables="8">
+    <variable domain="DCRJ2_1_1" name="Id_Compo_1_Bs_1" />
+    <variable domain="DCRJ2_1_1" name="Id_Compo_1_Bs_2" />
+    <variable domain="DCRJ2_2_1" name="Id_Compo_1_As_1" />
+    <variable domain="DCRJ2_2_1" name="Id_Compo_1_As_2" />
+    <variable domain="DCRJ2_1_2" name="Id_A_1_Ab_1" />
+    <variable domain="DCRJ2_1_2" name="Id_A_1_Ab_2" />
+    <variable domain="DCRJ2_1_2" name="Id_A_2_Ab_1" />
+    <variable domain="DCRJ2_1_2" name="Id_A_2_Ab_2" />
+  </variables>
+  <predicates nbPredicates="1">
+    <predicate name="inf">
+      <parameters>int v1 int v2</parameters>
+      <expression>
+        <functional>lt(v1,v2)</functional>
+      </expression>
+    </predicate>
+  </predicates>
+  <constraints nbConstraints="5">
+    <constraint name="ConsId_Compo_1_Bs_2Id_Compo_1_Bs_1" arity="2" scope="Id_Compo_1_Bs_2 Id_Compo_1_Bs_1" reference="inf">
+      <parameters>Id_Compo_1_Bs_1 Id_Compo_1_Bs_2</parameters>
+    </constraint>
+    <constraint name="ConsId_Compo_1_As_2Id_Compo_1_As_1" arity="2" scope="Id_Compo_1_As_2 Id_Compo_1_As_1" reference="inf">
+      <parameters>Id_Compo_1_As_1 Id_Compo_1_As_2</parameters>
+    </constraint>
+    <constraint name="ConsId_A_1_Ab_2Id_A_1_Ab_1" arity="2" scope="Id_A_1_Ab_2 Id_A_1_Ab_1" reference="inf">
+      <parameters>Id_A_1_Ab_1 Id_A_1_Ab_2</parameters>
+    </constraint>
+    <constraint name="ConsId_A_2_Ab_2Id_A_2_Ab_1" arity="2" scope="Id_A_2_Ab_2 Id_A_2_Ab_1" reference="inf">
+      <parameters>Id_A_2_Ab_1 Id_A_2_Ab_2</parameters>
+    </constraint>
+  </constraints>
+</instance>
