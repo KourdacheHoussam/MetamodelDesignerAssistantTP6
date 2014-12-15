@@ -100,17 +100,34 @@ Ajout de la classe Domaine : un réseau de petri peut être appliqué à plusieurs d
 ![n1](img/m-v4.jpeg "title")
 
 
-### Version 4 du Méta-Modèle et l'instance du modèle généré:
+### Version 5 du Méta-Modèle et l'instance du modèle généré:
 
 Ajout de la classe Resource et l'association( poids[0..*]) :
-Remarque: Dans certain domaine on résonne plus en nombre de ressources 
-![mm-v2](img/mm-v5.PNG "title")
+Remarque: Dans certain domaine on résonne plus en nombre de ressources   
+
+![mm-v5](img/mm-v5.PNG "title")
 
 
 ------------------------------------------------------------
 
 ![n1](img/m-v5.jpeg "title")
 
+
+
+### Version 6 du Méta-Modèle et l'instance du modèle généré:
+
+Ajout de  ElementLiaison implémentant un Arc du réseau de Petri;   
+Ajout de  ElementNoeud implémentant un Noeud qui peut être une place ou transition;   
+Ajout de AInhibiteur, un arc de type inhibiteur et un arc normal héritant de la classe Arc;   
+ 
+Remarque: Dans certain domaine on résonne plus en nombre de ressources   
+
+![mm-v6](img/mm-v6.PNG "title")
+
+
+------------------------------------------------------------
+
+![n1](img/m-v6.jpeg "title")
 
  
 &copy; 2014 Houssam KOURDACHE

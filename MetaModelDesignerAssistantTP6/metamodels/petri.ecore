@@ -13,7 +13,7 @@
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Transition" abstract="true" eSuperTypes="#//Noeud"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Noeud" eSuperTypes="#//NamedElement">
+  <eClassifiers xsi:type="ecore:EClass" name="Noeud" eSuperTypes="#//NamedElement #//ElementNoeud">
     <eStructuralFeatures xsi:type="ecore:EReference" name="inputLinks" upperBound="-1"
         eType="#//Arc" eOpposite="#//Arc/source"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="outputlinks" upperBound="-1"
@@ -28,7 +28,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="petris" upperBound="-1"
         eType="#//ReseauPetri" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Arc">
+  <eClassifiers xsi:type="ecore:EClass" name="Arc" eSuperTypes="#//ElementLiaison">
     <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
         eType="#//Noeud" eOpposite="#//Noeud/outputlinks"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="#//Noeud"
@@ -43,4 +43,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Resource"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AInhibiteur" eSuperTypes="#//Arc"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ANormal" eSuperTypes="#//Arc"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ElementNoeud"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ElementLiaison"/>
 </ecore:EPackage>
