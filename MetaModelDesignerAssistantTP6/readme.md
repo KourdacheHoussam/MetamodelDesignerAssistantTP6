@@ -22,7 +22,8 @@
 ## Définition de l'outil (plugin) Grimm:
 Outil permettant de générer des models depuis des méta-modèles conforme Ecore.
 
-Exemple d'utilisation : **  java -jar grimm.jar metamodel.ecore Compo root lb ub rb sys **
+
+###### Exemple d'utilisation : java -jar grimm.jar metamodel.ecore Compo root lb ub rb sys **
 
 - grimm.jar : outil à utiliser pour générer le model : [téléchargment](http://www2.lirmm.fr/~ferdjoukh/english/research.html "téléchargment") 
 - metamodel.ecore : le méta-modèle pour lequel vous voulez générer le modèle.
@@ -33,7 +34,8 @@ Exemple d'utilisation : **  java -jar grimm.jar metamodel.ecore Compo root lb ub
 - rb : la borne supérieure du nombre d’instances par référence.  Ex : 4
 - sym : Casser ou non les symmétries entre les variables des références : O ou 1.  Ex: 1
 
-->  java -jar grimm.jar metamodel.ecore Compo 2 2 2 4 1
+
+###### Exemple :  java -jar grimm.jar metamodel.ecore Compo 2 2 2 4 1
 
 
 ##### Remarques:
@@ -51,12 +53,39 @@ Le fichier généré ressemblerai à ceci:
 
 ![test](img/test.jpeg "title")  
 
-# ******* Méta-modèle *
+#Méta-modèle 
 
 
-### V1 du Méta-Modèle  :
+### Version 1 du Méta-Modèle et l'instance du modèle généré:
 ![mm-v1](img/mm-v1.PNG "title")
+  
 
+
+------------------------------------------------------------
+
+![n1](img/m-v1.jpeg "title")
+
+
+### Version 2 du Méta-Modèle et l'instance du modèle généré:
+
+Après l'ajout d'une EClass Jeton et la l'agrégation entre la class "Place" et la class "Jeton".
+![mm-v2](img/mm-v2.PNG "title")
+
+
+------------------------------------------------------------
+
+![n1](img/m-v2.jpeg "title")
+
+
+### Version 3 du Méta-Modèle et l'instance du modèle généré:
+
+Après l'ajout d'une EClass Jeton et la l'agrégation entre la class "Place" et la class "Jeton".
+![mm-v2](img/mm-v3.PNG "title")
+
+
+------------------------------------------------------------
+
+![n1](img/m-v3.jpeg "title")
 
 
  
