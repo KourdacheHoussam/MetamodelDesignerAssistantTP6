@@ -1,12 +1,13 @@
 
 
-#### 
+####Concevoir un méta-modèle conforme à ECore : utilisation du plugin Grimm pour générer un modèle conforme au méta-modèle ecore passé en paramètre.
 
- Concevoir un méta-modèle conforme à ECore 
-------------------------------------------
+------------------------------------------------------------
 
-Le méta-modèle utilisé ici est le méta-modèle de LDP : langage de description de processus.
-Les éléments méta-modèles utilisés dans ce modèle sont :
+
+
+# Méta-Modèle d'un réseau de Petri: 
+
 * EClass pour définir une classe   
 
 * EAttribute pour définir un attribut d'une classe (un attribut est d'un type primitif entier, booléen, chaine...)  
@@ -18,26 +19,40 @@ Les éléments méta-modèles utilisés dans ce modèle sont :
 * EParameter pour définir un paramètre d'opération   
 
 
+## Définition de l'outil (plugin) Grimm:
+Outil permettant de générer des models depuis des méta-modèles conforme Ecore.
+
+Exemple d'utilisation : **  java -jar grimm.jar metamodel.ecore Compo root lb ub rb sys **
+
+- grimm.jar : outil à utiliser pour générer le model : [téléchargment](http://www2.lirmm.fr/~ferdjoukh/english/research.html "téléchargment") 
+- metamodel.ecore : le méta-modèle pour lequel vous voulez générer le modèle.
+- Compo : le répertoire dans lequel sera stocké le modèle généré. _Vous pouvez visualiser l'instance du modèle généré en installant GraphViZ, le lien de téléachargemet_ [Download](http://www.graphviz.org/Download..php "title") 
+- root : la classe racine du méta-modèle mm.
+- lb : la borne inférieure du nombre d’instances par classe. Ex : 2
+- ub : la borne supérieure du nombre d’instances par classe. Ex : 2
+- rb : la borne supérieure du nombre d’instances par référence.  Ex : 4
+- sym : Casser ou non les symmétries entre les variables des références : O ou 1.  Ex: 1
+
+->  java -jar grimm.jar metamodel.ecore Compo 2 2 2 4 1
+
+
+##### Remarques:
+
+ - Il est impératif d'utiliser le même nom de répertoire, avec la première lettre en majuscule : Compo
+ - Dans le méta-modèle que vous allez créer, veillez à rajouter la EClass Compo avec un association de composition vers la racine 
+ 	de votre modèle.
+ 
+
+## Premier exemple
+
+Dans le répertoire model, vous trouverez un fichier .ecore sur lequel vous pourrez faire le premier test:
+Le fichier généré ressemblerai à ceci:
+
+![test.png](img/test.jpeg "title")  
+
 # Méta-modèle
-![altText](MM.png "Metamodele") 
+
 
 
  
-## Un processus 
-
-est une séquence ordonnée d'activités contenant une date de fin et de début.
-Le méta-élement processus va nous permettre de définir les élements de nos processus.
-Il possède deux PseudoState: etat de début et de fin.
-
-
-## PseudoState
-une classe abstraite, mère de deux sous-classes Start et End.
-un pseudoState a toujours une référence vers une Activité.
-
-## Activity
-
-Une activité possède un nom et une référence vers l'activité suivante à condition qu'elle ne soit pas la dernière activité 
-du processus
-
-
-
+&copy; 2014 Houssam KOURDACHE

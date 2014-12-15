@@ -67,10 +67,10 @@
   <element xmi:type="ecore:EPackage" href="test.ecore#/"/>
   <edges xmi:type="notation:Edge" xmi:id="_Yt-LoH8xEeSUVtjjO5IKFg" type="4003" source="_YsioQH8xEeSUVtjjO5IKFg" target="_Ysu1hH8xEeSUVtjjO5IKFg">
     <children xmi:type="notation:Node" xmi:id="_YuESQH8xEeSUVtjjO5IKFg" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_YuESQX8xEeSUVtjjO5IKFg" x="-12" y="-48"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YuESQX8xEeSUVtjjO5IKFg" x="65" y="-20"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_YuESQn8xEeSUVtjjO5IKFg" type="6004">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_YuESQ38xEeSUVtjjO5IKFg" x="-5" y="-60"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YuESQ38xEeSUVtjjO5IKFg" x="21" y="-39"/>
     </children>
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_Yt-LoX8xEeSUVtjjO5IKFg"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_Yt-Lon8xEeSUVtjjO5IKFg" fontName="Segoe UI"/>
@@ -81,7 +81,7 @@
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_YvToYH8xEeSUVtjjO5IKFg" type="4003" source="_YsioQH8xEeSUVtjjO5IKFg" target="_Ysou7H8xEeSUVtjjO5IKFg">
     <children xmi:type="notation:Node" xmi:id="_YvToZH8xEeSUVtjjO5IKFg" type="6002">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_YvToZX8xEeSUVtjjO5IKFg" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YvToZX8xEeSUVtjjO5IKFg" x="108" y="29"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_YvToZn8xEeSUVtjjO5IKFg" type="6004">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_YvToZ38xEeSUVtjjO5IKFg" x="-8" y="29"/>
