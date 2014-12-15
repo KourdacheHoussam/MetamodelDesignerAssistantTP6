@@ -99,5 +99,18 @@ Ajout de la classe Domaine : un réseau de petri peut être appliqué à plusieurs d
 
 ![n1](img/m-v4.jpeg "title")
 
+
+### Version 4 du Méta-Modèle et l'instance du modèle généré:
+
+Ajout de la classe Resource et l'association( poids[0..*]) :
+Remarque: Dans certain domaine on résonne plus en nombre de ressources 
+![mm-v2](img/mm-v5.PNG "title")
+
+
+------------------------------------------------------------
+
+![n1](img/m-v5.jpeg "title")
+
+
  
 &copy; 2014 Houssam KOURDACHE

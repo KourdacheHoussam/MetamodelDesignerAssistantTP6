@@ -21,8 +21,8 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Place" eSuperTypes="#//Noeud">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nbJetons" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="jetons" eType="#//Jeton"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="jetons" upperBound="-1"
+        eType="#//Jeton" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Compo">
     <eStructuralFeatures xsi:type="ecore:EReference" name="petris" upperBound="-1"
@@ -33,11 +33,14 @@
         eType="#//Noeud" eOpposite="#//Noeud/outputlinks"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="#//Noeud"
         eOpposite="#//Noeud/inputLinks"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="poids" upperBound="-1"
+        eType="#//Resource"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Jeton"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Jeton" eSuperTypes="#//Resource"/>
   <eClassifiers xsi:type="ecore:EClass" name="TransitionPuit" eSuperTypes="#//Transition"/>
   <eClassifiers xsi:type="ecore:EClass" name="TransitionSource" eSuperTypes="#//Transition"/>
   <eClassifiers xsi:type="ecore:EClass" name="Domaine">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Resource"/>
 </ecore:EPackage>
