@@ -89,5 +89,15 @@ TransitionSource et TransitionPuit.
 ![n1](img/m-v3.jpeg "title")
 
 
+### Version 4 du Méta-Modèle et l'instance du modèle généré:
+
+Ajout de la classe Domaine : un réseau de petri peut être appliqué à plusieurs domaines .
+![mm-v2](img/mm-v4.PNG "title")
+
+
+------------------------------------------------------------
+
+![n1](img/m-v4.jpeg "title")
+
  
 &copy; 2014 Houssam KOURDACHE

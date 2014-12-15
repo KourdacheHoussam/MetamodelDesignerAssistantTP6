@@ -9,6 +9,8 @@
         eType="#//Noeud" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="arcs" upperBound="-1" eType="#//Arc"
         containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rpetri" eType="#//Domaine"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Transition" abstract="true" eSuperTypes="#//Noeud"/>
   <eClassifiers xsi:type="ecore:EClass" name="Noeud" eSuperTypes="#//NamedElement">
@@ -35,4 +37,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Jeton"/>
   <eClassifiers xsi:type="ecore:EClass" name="TransitionPuit" eSuperTypes="#//Transition"/>
   <eClassifiers xsi:type="ecore:EClass" name="TransitionSource" eSuperTypes="#//Transition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Domaine">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
 </ecore:EPackage>
