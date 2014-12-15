@@ -10,7 +10,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="arcs" upperBound="-1" eType="#//Arc"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Transition" eSuperTypes="#//Noeud"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Transition" abstract="true" eSuperTypes="#//Noeud"/>
   <eClassifiers xsi:type="ecore:EClass" name="Noeud" eSuperTypes="#//NamedElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="inputLinks" upperBound="-1"
         eType="#//Arc" eOpposite="#//Arc/source"/>
@@ -33,4 +33,6 @@
         eOpposite="#//Noeud/inputLinks"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Jeton"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TransitionPuit" eSuperTypes="#//Transition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TransitionSource" eSuperTypes="#//Transition"/>
 </ecore:EPackage>

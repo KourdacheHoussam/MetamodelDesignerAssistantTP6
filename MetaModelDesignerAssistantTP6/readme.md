@@ -79,7 +79,8 @@ Après l'ajout d'une EClass Jeton et la l'agrégation entre la class "Place" et la
 
 ### Version 3 du Méta-Modèle et l'instance du modèle généré:
 
-Après l'ajout d'une EClass Jeton et la l'agrégation entre la class "Place" et la class "Jeton".
+Après avoir met la class "Transition" en abstract et avoir ajouté les deux classes filles   
+TransitionSource et TransitionPuit.
 ![mm-v2](img/mm-v3.PNG "title")
 
 
