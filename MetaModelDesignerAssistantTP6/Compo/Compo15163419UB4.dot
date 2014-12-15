@@ -1,11 +1,11 @@
 Graph g{ 
 struct1 [shape=record,label="{Compo|}"]; 
 struct2 -- struct4 [label="Ab"]   ;
-struct2 -- struct5 [label="Ab"]   ;
+struct2 -- struct4 [label="Ab"]   ;
 struct2 [shape=record,label="{A2|}"];
 struct1 -- struct2 ;
 struct3 -- struct4 [label="Ab"]   ;
-struct3 -- struct5 [label="Ab"]   ;
+struct3 -- struct4 [label="Ab"]   ;
 struct3 [shape=record,label="{A3|}"];
 struct1 -- struct3 ;
 struct4 [shape=record,label="{B4|}"];
