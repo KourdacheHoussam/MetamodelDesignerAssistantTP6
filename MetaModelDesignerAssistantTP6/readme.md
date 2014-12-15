@@ -103,7 +103,9 @@ Ajout de la classe Domaine : un réseau de petri peut être appliqué à plusieurs d
 ### Version 5 du Méta-Modèle et l'instance du modèle généré:
 
 Ajout de la classe Resource et l'association( poids[0..*]) :
-Remarque: Dans certain domaine on résonne plus en nombre de ressources   
+
+> 
+Remarque: Dans certain domaine on résonne plus en nombre de ressources qu'en nombre de jetons  
 
 ![mm-v5](img/mm-v5.PNG "title")
 
@@ -119,8 +121,7 @@ Remarque: Dans certain domaine on résonne plus en nombre de ressources
 Ajout de  ElementLiaison implémentant un Arc du réseau de Petri;   
 Ajout de  ElementNoeud implémentant un Noeud qui peut être une place ou transition;   
 Ajout de AInhibiteur, un arc de type inhibiteur et un arc normal héritant de la classe Arc;   
- 
-Remarque: Dans certain domaine on résonne plus en nombre de ressources   
+   
 
 ![mm-v6](img/mm-v6.PNG "title")
 
@@ -132,7 +133,6 @@ Remarque: Dans certain domaine on résonne plus en nombre de ressources
 
 ### Version 7 du Méta-Modèle et l'instance du modèle généré:
  
-Remarque: Dans certain domaine on résonne plus en nombre de ressources   
 
 ![mm-v7](img/mm-v7.PNG "title")
 
@@ -142,7 +142,21 @@ Remarque: Dans certain domaine on résonne plus en nombre de ressources
 ![n1](img/m-v7.jpeg "title")
 
 
+
+### Version 8 du Méta-Modèle et l'instance du modèle généré:
+ - Ajout du Classifier Temporisation (date, heure ...etc.)
+ - Ajout Classifier TimeStampn : ajout d'un timestamp afin de pouvoir décider quand un jeton sera consommer (date, 	heure, min), après   
+ 	avoir satisfait les conditions de transition
+ - Associer le classifier à la classe Transition : timestamp sur les transition pour décider à quel moment exécuter une action.   
+
+
+![mm-v8](img/mm-v8.PNG "title")
+
+
 ------------------------------------------------------------
+
+![n1](img/m-v8.jpeg "title")
+
 
 
 ------------------------------------------------------------

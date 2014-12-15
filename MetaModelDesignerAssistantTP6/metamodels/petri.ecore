@@ -14,7 +14,10 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="autonome" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
     <eStructuralFeatures xsi:type="ecore:EReference" upperBound="2" eType="#//Catégorie"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Transition" abstract="true" eSuperTypes="#//Noeud"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Transition" abstract="true" eSuperTypes="#//Noeud">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="executiontime" upperBound="-1"
+        eType="#//TimeStamp"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Noeud" eSuperTypes="#//NamedElement #//ElementNoeud">
     <eStructuralFeatures xsi:type="ecore:EReference" name="inputLinks" upperBound="-1"
         eType="#//Arc" eOpposite="#//Arc/source"/>
@@ -38,7 +41,10 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="poids" upperBound="-1"
         eType="#//Resource"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Jeton" eSuperTypes="#//Resource"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Jeton" eSuperTypes="#//Resource">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="consumationtime" upperBound="-1"
+        eType="#//TimeStamp"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TransitionPuit" eSuperTypes="#//Transition"/>
   <eClassifiers xsi:type="ecore:EClass" name="TransitionSource" eSuperTypes="#//Transition"/>
   <eClassifiers xsi:type="ecore:EClass" name="Domaine">
@@ -52,4 +58,9 @@
   <eClassifiers xsi:type="ecore:EClass" name="Catégorie">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Temporisation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="date" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="heure" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TimeStamp" eSuperTypes="#//Temporisation"/>
 </ecore:EPackage>

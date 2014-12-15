@@ -1,0 +1,18 @@
+Graph g{ 
+struct1 [shape=record,label="{NamedElement| nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{ReseauPetri| nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{Noeud| nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{Place| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n}"]; 
+struct1 [shape=record,label="{Compo| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n}"]; 
+struct1 [shape=record,label="{Arc| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n}"]; 
+struct1 [shape=record,label="{Jeton| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n}"]; 
+struct1 [shape=record,label="{TransitionPuit| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{TransitionSource| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{Domaine| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{Resource| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{AInhibiteur| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{ANormal| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{ElementNoeud| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{ElementLiaison| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+struct1 [shape=record,label="{Catégorie| nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nbJetons:-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n nom:nom-11 \n}"]; 
+} 
