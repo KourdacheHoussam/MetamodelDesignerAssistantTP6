@@ -50,7 +50,9 @@
   <eClassifiers xsi:type="ecore:EClass" name="Domaine">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Resource"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Resource">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="borne" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AInhibiteur" eSuperTypes="#//Arc"/>
   <eClassifiers xsi:type="ecore:EClass" name="ANormal" eSuperTypes="#//Arc"/>
   <eClassifiers xsi:type="ecore:EClass" name="ElementNoeud"/>

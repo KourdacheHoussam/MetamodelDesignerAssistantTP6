@@ -206,6 +206,10 @@
   <children xmi:type="notation:Shape" xmi:id="_bSwOYISIEeSS85lWJUtEdg" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_bSwOYoSIEeSS85lWJUtEdg" type="5001"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_bSwOY4SIEeSS85lWJUtEdg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_pbb5sIUfEeSYUb76OlrGoQ" type="3001">
+        <element xmi:type="ecore:EAttribute" href="petri.ecore#//Resource/borne"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pbb5sYUfEeSYUb76OlrGoQ"/>
+      </children>
       <styles xmi:type="notation:SortingStyle" xmi:id="_bSwOZISIEeSS85lWJUtEdg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_bSwOZYSIEeSS85lWJUtEdg"/>
     </children>
@@ -218,7 +222,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_bSwOa4SIEeSS85lWJUtEdg"/>
     </children>
     <element xmi:type="ecore:EClass" href="petri.ecore#//Resource"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bSwOYYSIEeSS85lWJUtEdg" x="525" y="350" width="96" height="46"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bSwOYYSIEeSS85lWJUtEdg" x="525" y="350" width="106" height="66"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_hcCg0ISIEeSS85lWJUtEdg" type="Note" fontName="Segoe UI" description="Dans certain domaine on résonne plus en nombre de ressources" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
     <children xmi:type="notation:BasicDecorationNode" xmi:id="_hcGyQISIEeSS85lWJUtEdg" type="DiagramName">
