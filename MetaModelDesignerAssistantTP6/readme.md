@@ -155,7 +155,7 @@ Ajout de AInhibiteur, un arc de type inhibiteur et un arc normal héritant de la 
 
 ------------------------------------------------------------
 
-![n1](img/m-v8.JPEG "title")
+![n1](img/m-v8.jpeg "title")
 
 
 
