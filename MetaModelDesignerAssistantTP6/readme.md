@@ -36,14 +36,14 @@ Outil permettant de générer des models depuis des méta-modèles conforme Ecore.
 
 
 ###### Exemple :  java -jar grimm.jar metamodel.ecore Compo 2 2 2 4 1
-
+ ![altText](ex-test.PNG "exemple d'exécution") 
 
 ##### Remarques:
 
  - Il est impératif d'utiliser le même nom de répertoire, avec la première lettre en majuscule : Compo
  - Dans le méta-modèle que vous allez créer, veillez à rajouter la EClass Compo avec un association de composition vers la racine 
  	de votre modèle.
- - L'instance du modèle généré peut être exporter dans differents formats(pdf, png, jpg...etc).
+ - L'instance du modèle généré peut être exporté dans differents formats(pdf, png, jpg...etc).
  
 
 ## Premier exemple
